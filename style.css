@@ -1,0 +1,166 @@
+@import url(http://fonts.googleapis.com/css?family=Khula:700);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+span {
+  font-family: "Khula";
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  padding: 0 40px;
+  background-color: #383838;
+}
+
+nav ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0 20px;
+}
+
+nav li {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0 20px;
+  height: 100%;
+}
+
+.link {
+  font-size: 16px;
+  padding: 0 20px;
+  padding-top: 260px;
+}
+
+.title {
+  font-size: 32px;
+}
+
+.logo {
+  height: 100%;
+}
+.logo2 {
+  height: 100px;
+}
+
+.logo-container {
+  height: 70%;
+}
+
+body {
+  background-color: #333;
+}
+
+li:hover .line {
+  opacity: 1;
+}
+
+span.line {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 40px);
+  height: 4px;
+  background-color: #ee6868;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 500ms;
+}
+
+.bilder {
+  display: flex;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.schedule {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  padding: 8px 32px;
+  border-bottom: 1px solid #747474;
+}
+
+.container {
+  padding: 16px 8px;
+}
+
+.schedule:first-child {
+  border-top: 1px solid #747474;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.image {
+  height: 100%;
+}
+
+.image img {
+  height: 100%;
+}
+
+.start,
+.end {
+  flex: 1;
+  font-size: 26px;
+}
+
+.end {
+  text-align: right;
+}
+
+.date {
+  padding: 40px 20px;
+  padding-bottom: 0;
+}
+
+#tornados {
+  padding-right: 10px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  height: 80vh;
+}
+form {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(116, 115, 115);
+  padding: 25px;
+  border-radius: 10px;
+}
+input {
+  margin-bottom: 30px;
+}
+#login {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 7px;
+}
